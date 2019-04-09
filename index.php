@@ -76,7 +76,6 @@ $result = $blobClient->listBlobs($containerName, $listBlobsOptions);
 			</form>
 		</div>
 		<br>
-		<h4>Total Files : <?php echo sizeof($result->getBlobs())?></h4>
 		<table class='table table-hover'>
 			<thead>
 				<tr>
