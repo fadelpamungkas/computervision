@@ -18,7 +18,7 @@
         $(document).ready(function processImage() {
             var subscriptionKey = "9b995d750b7b4a9a9ba09f3a0513288b";
             var uriBase =
-                "https://southeastasia.api.cognitive.microsoft.com/";
+                "https://southeastasia.api.cognitive.microsoft.com/vision/v2.0/analyze";
     
             var params = {
                 "visualFeatures": "Categories,Description,Color",
